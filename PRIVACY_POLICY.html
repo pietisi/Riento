@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Riento Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #05070a;
+      --panel: #0e131b;
+      --text: #eef2f7;
+      --muted: #a8b3c2;
+      --accent: #8b5cf6;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+    }
+
+    h1, h2 {
+      line-height: 1.2;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 32px;
+    }
+
+    p, ul {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Riento Privacy Policy</h1>
+      <p class="meta">Effective date: 2026-07-07</p>
+      <p><strong>Operator:</strong> Pieti Siivola</p>
+      <p><strong>Contact:</strong> <a href="mailto:Siivola.Labs@proton.me">Siivola.Labs@proton.me</a></p>
+
+      <p>This Privacy Policy explains how Riento collects, uses, stores, and protects personal data when you use the Riento mobile app.</p>
+      <p>Riento helps people find active Helsinki bars and clubs. Riento is designed around venue-level signals. It does not show public user dots, exact user locations, or exact public crowd counts.</p>
+
+      <h2>Information We Collect</h2>
+      <p>Riento may collect the following categories of information:</p>
+      <ul>
+        <li>Account information, including email address, authentication provider identifiers, and basic profile/settings information</li>
+        <li>App settings and preferences, including location-sharing preferences, manual placement preference, and device-local music-check prompt settings</li>
+        <li>Venue-level activity data, including GPS-derived venue signals and manual placements tied to a venue</li>
+        <li>User-submitted content, including venue reports, now-playing confirmations, data export requests, and account deletion requests</li>
+        <li>Music-related metadata, such as track title and artist, when a supported foreground music check returns a match and you continue through the review flow</li>
+        <li>Technical and service information, including basic logs and diagnostics needed to operate, secure, debug, and improve the service</li>
+      </ul>
+
+      <h2>How We Use Information</h2>
+      <p>We use collected information to:</p>
+      <ul>
+        <li>Provide account sign-in and session management</li>
+        <li>Show venue-level crowd and venue context inside the app</li>
+        <li>Process venue-level activity signals and manual placements</li>
+        <li>Review wrong or missing venue data</li>
+        <li>Support private now-playing review flows</li>
+        <li>Process data export and account deletion requests</li>
+        <li>Prevent abuse, spam, and misuse</li>
+        <li>Maintain service security, reliability, and debugging</li>
+      </ul>
+
+      <h2>Location Use</h2>
+      <p>Riento requests foreground location only. It does not use background location tracking for the current product.</p>
+      <p>When location is enabled, the app may use device location to sort nearby venues, match the device to a nearby known venue, and submit a venue-level activity signal for signed-in users.</p>
+      <p>Riento is designed to use venue-level aggregation rather than public user tracking.</p>
+
+      <h2>Music Recognition And Audio</h2>
+      <p>Riento does not store or upload raw audio to its backend services.</p>
+      <p>In supported native iOS builds, a venue-specific foreground music check may use a short in-memory microphone sample to attempt matching through Apple's ShazamKit path. This action requires an explicit user tap before any microphone permission is requested.</p>
+      <p>Android currently remains on the manual-confirmation path and should not rely on automatic foreground music recognition until a separately reviewed Android provider is chosen.</p>
+      <p>If a music match is returned, Riento may store matched metadata such as track title and artist for review and venue-level history. Raw audio is not retained by Riento.</p>
+
+      <h2>What Is Public And What Is Private</h2>
+      <p>Riento may show publicly inside the app:</p>
+      <ul>
+        <li>Venue names, addresses, neighborhoods, categories, and broad crowd labels</li>
+        <li>Aggregated venue activity signals</li>
+        <li>Venue-level now-playing status when a trusted or reviewed source is fresh</li>
+        <li>Venue-level music history based on reviewed observations</li>
+      </ul>
+      <p>Riento does not publicly show:</p>
+      <ul>
+        <li>Individual user locations</li>
+        <li>Exact public crowd counts</li>
+        <li>Private venue reports</li>
+        <li>Private manual placements</li>
+        <li>Private now-playing confirmations</li>
+        <li>Raw audio</li>
+        <li>Account emails</li>
+      </ul>
+
+      <h2>Legal Bases</h2>
+      <p>Depending on the context, Riento may process personal data on one or more of the following bases:</p>
+      <ul>
+        <li>Performance of a contract or service request</li>
+        <li>Legitimate interests, such as operating, securing, debugging, improving the service, and reviewing venue data quality</li>
+        <li>Consent, where required, such as foreground microphone use for supported music checks</li>
+        <li>Legal obligations, where applicable, including data subject rights handling</li>
+      </ul>
+
+      <h2>Sharing And Service Providers</h2>
+      <p>Riento does not sell personal data.</p>
+      <p>Riento may share limited information with infrastructure and service providers that help operate the app, such as Supabase for backend/authentication services, Expo-related infrastructure, and Apple system services used for supported iOS ShazamKit matching.</p>
+
+      <h2>Retention</h2>
+      <p>Riento aims to keep data no longer than necessary for the purposes described above.</p>
+      <p>Current operational defaults include short-lived venue-level crowd signals, user-controlled deletion of stored GPS venue pings and manual placements, deletion of export artifact files within 7 days of successful delivery unless legal review requires a different rule, private retention of completed data export and account deletion request rows for up to 12 months unless legal review requires a different rule, and private retention of resolved venue/music review rows until the final retention policy is confirmed.</p>
+
+      <h2>Data Export And Account Deletion</h2>
+      <p>Signed-in users can request a personal data export or account deletion from the app.</p>
+      <p>Riento uses a trusted admin process to complete these requests. Before an export is delivered or an account deletion is completed, Riento should verify that the request came from the signed-in account and may require account-email verification if the support channel or destination changes.</p>
+
+      <h2>Your Rights</h2>
+      <p>Depending on your location, you may have rights to access, correct, delete, export, restrict, object to certain processing, or withdraw consent where consent is the legal basis. You may also have the right to lodge a complaint with a supervisory authority.</p>
+      <p>To exercise rights, contact <a href="mailto:Siivola.Labs@proton.me">Siivola.Labs@proton.me</a>.</p>
+
+      <h2>Security</h2>
+      <p>Riento uses reasonable technical and organizational measures to protect personal data. No method of storage or transmission is completely secure, and Riento cannot guarantee absolute security.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>Riento is not intended for children. Users should only use Riento for nightlife decisions if they are legally allowed to enter relevant venues and use any age-restricted services in their location.</p>
+
+      <h2>International Processing</h2>
+      <p>Riento's service providers may process data in multiple jurisdictions depending on infrastructure and platform services used.</p>
+
+      <h2>Changes To This Policy</h2>
+      <p>Riento may update this Privacy Policy from time to time. If material changes are made, the updated policy should be published with a revised effective date.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions or requests about this Privacy Policy or your personal data, contact Pieti Siivola at <a href="mailto:Siivola.Labs@proton.me">Siivola.Labs@proton.me</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
